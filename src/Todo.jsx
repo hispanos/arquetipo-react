@@ -7,16 +7,7 @@ import Form from './todo/form/Form'
 
 const Todo = () => {
 
-    const [listTask, setListTask] = useState([
-        {
-            task: 'Comprar comida',
-            status: false
-        },
-        {
-            task: 'Limpiar Casa',
-            status: true
-        }
-    ]);
+    const [listTask, setListTask] = useState([]);
 
     const addTask = (newTask) => {
         // const tempList = listTask;
